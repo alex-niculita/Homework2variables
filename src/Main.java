@@ -10,8 +10,10 @@ public class Main {
         task4();
         System.out.println("\n\tЗадание 5:");
         task5();
-        System.out.println("\n\tЗадание 6 и 7:");
-        task6and7();
+        System.out.println("\n\tЗадание 6:");
+        task6();
+        System.out.println("\n\tЗадание 7:");
+        task7();
         System.out.println("\n\tЗадание 8:");
         task8();
     }
@@ -74,9 +76,19 @@ public class Main {
         System.out.println("frog + 4 = " + frog);
     }
 
-    public static void task6and7(){
+    public static void task6(){
         var weightBoxer1 = 78.2;
         var weightBoxer2 = 82.7;
+        var weightDifference = weightBoxer2-weightBoxer1;
+
+        System.out.println("Разница между весами бойцов составляет " + weightDifference + "кг.");
+
+    }
+
+    public static void task7(){
+        var weightBoxer1 = 78.2;
+        var weightBoxer2 = 82.7;
+
         var weightDifference = weightBoxer2-weightBoxer1; //Использовали операцию вычитания.
 
         System.out.println("Разница между весами бойцов составляет " + weightDifference + "кг (Операция вычитания).");
